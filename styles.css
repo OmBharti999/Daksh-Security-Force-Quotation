@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+    margin: 0;
+    /* padding: 20px; */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    /* background-color: #f4f4f4; */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 -10px 0;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+h2 {
+    color: #333;
+}
+
+.slogan {
+    /* font-style: italic; */
+    font-weight: 600;
+}
+
+.license {
+    font-weight: bold;
+}
+
+.contact-info, .reference {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+
+    font-size: 15px
+}
+.contact-info{
+margin-bottom: -30px;
+margin-top: -5px;
+}
+
+.salutation {
+    font-weight: bold;
+    font-size: 15px
+}
+
+ol {
+    padding-left: 20px;
+    font-size: 14px
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+ol ol {
+    list-style-type: NONE;
+}
+ol ol li{
+    margin-bottom: 0px;
+}
+/*  */
+.quotation{
+    text-align: center;
+}
